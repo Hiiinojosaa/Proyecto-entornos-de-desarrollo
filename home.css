@@ -1,0 +1,149 @@
+/* GENERALES */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f6f8f9;
+}
+
+/* HEADER */
+header {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    margin: 0;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+/* DESPLEGABLE */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background: white;
+    padding: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    min-width: 150px;
+    z-index: 10;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu li {
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.dropdown-menu li:hover {
+    background: #f0f0f0;
+}
+
+/* CARDS */
+.cards {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+}
+
+.card {
+    background: #d9d9d9;
+    padding: 25px;
+    border-radius: 20px;
+    text-align: start;
+    width: 300px;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    margin: 0 0 8px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card p {
+    margin: 0 0 20px 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.card button {
+    background: #2f80ed;
+    color: white;
+    border: none;
+    padding: 14px 25px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 25px;
+    font-size: 14px;
+}
+
+/* MODALES */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    width: 350px;
+    text-align: center;
+}
+
+.close {
+    float: right;
+    cursor: pointer;
+    font-size: 24px;
+}

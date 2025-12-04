@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f6f6f6;
+}
+
+header {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.perfil-container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 70px 60px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.perfil-img {
+    width: 250px;
+}
+
+.perfil-info h2 {
+    font-size: 28px;
+    margin: 0;
+}
+
+.perfil-info h4 {
+    margin: 5px 0 20px 0;
+    color: #444;
+}
+
+.perfil-info p {
+    max-width: 600px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.btn-contacto {
+    background: #2f80ed;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
