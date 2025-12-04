@@ -1,11 +1,10 @@
-/* GENERALES */
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     background: #f6f8f9;
 }
 
-/* HEADER */
 header {
     background: white;
     display: flex;
@@ -35,7 +34,7 @@ nav ul li a {
     font-size: 18px;
 }
 
-/* DESPLEGABLE */
+
 .dropdown {
     position: relative;
 }
@@ -66,7 +65,7 @@ nav ul li a {
     background: #f0f0f0;
 }
 
-/* CARDS */
+
 .cards {
     margin-top: 20px;
     display: flex;
@@ -114,14 +113,12 @@ nav ul li a {
     font-size: 18px;
 }
 
-/* FOOTER */
 footer {
     text-align: center;
     padding: 25px;
     font-size: 14px;
 }
 
-/* MODALES */
 .modal {
     display: none;
     position: fixed;
