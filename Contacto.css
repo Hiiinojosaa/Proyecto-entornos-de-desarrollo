@@ -1,11 +1,10 @@
-/* GENERALES */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     background: #f6f6f6;
 }
 
-/* HEADER */
+
 header {
     background: white;
     display: flex;
@@ -36,27 +35,24 @@ nav ul li a {
     font-size: 18px;
 }
 
-/* CONTENEDOR PRINCIPAL */
 .contact-container {
     display: flex;
     justify-content: center;
     padding: 60px 0;
 }
 
-/* CAJA EXTERIOR (gris) */
 .outer-box {
     background: #dedede;
-    width: 70%;              /* 🔥 Mucho más estrecho como tu ejemplo */
+    width: 70%;              
     padding: 50px 20px;
     border-radius: 20px;
     display: flex;
     justify-content: center;
 }
 
-/* CAJA INTERIOR (blanca) */
 .inner-box {
     background: #f6f6f6;
-    width: 75%;              /* 🔥 Más estrecho y centrado */
+    width: 75%;             
     padding: 40px 50px;
     border-radius: 15px;
 
@@ -66,7 +62,6 @@ nav ul li a {
     gap: 60px;
 }
 
-/* COLUMNA IZQUIERDA */
 .left-side h2 a {
     text-decoration: none;
     color: black;
@@ -74,14 +69,14 @@ nav ul li a {
     font-weight: bold;
 }
 
-/* LÍNEA DIVISORIA */
+
 .divider {
     width: 1px;
     height: 130px;
     background: #777;
 }
 
-/* COLUMNA DERECHA */
+
 .right-side p {
     margin: 8px 0;
     font-size: 15px;
